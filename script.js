@@ -14,7 +14,7 @@ function turnSquare(squareObject)
 {
   
  
-clickCount= clickCount + 1;
+clickCount = clickCount + 1;
 
    
   $("#clickCount").html(clickCount);
@@ -25,7 +25,7 @@ clickCount= clickCount + 1;
    
   
   if (clickCount== 1) { firstColor = secretSquareColor;}
-   if (clickCount== 2) { firstColor = secretSquareColor;
+   if (clickCount== 2) { secondColor = secretSquareColor;
      checkMatches();}
 
 }
